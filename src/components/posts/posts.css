@@ -1,0 +1,24 @@
+.posts {
+  margin-left: 20px;
+  color: white;
+
+  position: relative;
+
+  overflow-x: scroll;
+  top: 560px;
+  overflow-y: hidden;
+}
+.posts::-webkit-scrollbar {
+  display: none;
+}
+.posts h2 {
+  text-align: left;
+}
+.posters {
+  display: flex;
+  padding: 20px;
+}
+.poster {
+  margin-right: 10px;
+  max-height: 250px;
+}
